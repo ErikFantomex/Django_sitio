@@ -1,7 +1,17 @@
-<div>
-    {% if request.user.is_authenticated %}
-    You are a user 
-    {% else %} 
-    You are not a user 
-    {% endif %}
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>{% block head_title %}SaaS{% endblock head_title %}</title>
+
+</head>
+<body>
+
+    {% block content %}
+replace me
+
+    {% endblock content %}
+
+</body>
+
+</html>
