@@ -34,10 +34,15 @@ MANIFEST
 *.manifest
 *.spec
 
+
+#ignore local cdn
+
+local-cdn/
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
-
+#ignore
+src/staticfiles/vendors
 # Unit test / coverage reports
 htmlcov/
 .tox/
